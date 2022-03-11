@@ -9,7 +9,8 @@ public class Client {
         builder.setAddress("ABC")
                 .setAge(18)
                 .setEmail("bcd")
-                .setPass("fgh");
+                .setPass("fgh")
+                .setAge(17);
 
         Student st = new Student(builder);
 
