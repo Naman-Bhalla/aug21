@@ -14,3 +14,8 @@ public interface DatabaseElements {
 
     Transaction getTransaction();
 }
+
+// Adapter
+// Decorator
+// Strategy
+// Observer

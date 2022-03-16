@@ -2,6 +2,7 @@ package phonepe.after;
 
 import phonepe.after.YBApi;
 
+// created by phone
 public class YesBankAPIAdapter implements BankAPI {
     YBApi ybApi = new YBApi();
 
