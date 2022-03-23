@@ -12,3 +12,15 @@ public class LFUPageReplacementStrategy implements PageReplacementStrategy, AddP
 
     }
 }
+
+
+// Batch(batch_id) {
+//   SqlQuey = "Selerct * from ..."
+//   this.name = query.name;
+//   this.nuStudents = query.nuStudents
+// }
+// clone (Batch b) {
+//   Batch clone = new Bathc();
+
+//
+// }
