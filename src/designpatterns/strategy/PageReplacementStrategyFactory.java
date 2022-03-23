@@ -5,15 +5,12 @@ public class PageReplacementStrategyFactory {
     public static PageReplacementStrategy getStrategyForAlgoType(
             PageReplacementAlgoType algoType, OS os
     ) {
-        switch (algoType) {
-            case LFU:
-                return new LFUPageReplacementStrategy();
-            case LRU:
-                return new LRUPageReplacementStrategy();
-            case FIFO:
-                return new FIFOPageReplacementStrategy(os);
-        }
+        return switch (algoType) {
+            case LFU -> new LFUPageReplacementStrategy();
+            case LRU -> new LRUPageReplacementStrategy();
+            case FIFO -> new FIFOPageReplacementStrategy(os);
+            default -> null;
+        };
 
-        return null;
     }
 }
