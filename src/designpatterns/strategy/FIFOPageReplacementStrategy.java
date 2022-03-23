@@ -22,3 +22,7 @@ public class FIFOPageReplacementStrategy implements PageReplacementStrategy, Add
         pages.add(page);
     }
 }
+
+
+// Assignment:
+// Implement LRU and LFU
